@@ -41,7 +41,7 @@ public abstract class Transactie {
 
         System.out.println("Type: " + getType());
     }
-    // Primitieve operaties
+
     public abstract void doTransactie();
     public abstract String getType();
     public void printBeschrijving() {

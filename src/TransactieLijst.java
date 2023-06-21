@@ -23,13 +23,13 @@ class TransactieLijst extends Observable {
     }
 
     public void laadTransacties() {
-        // Laad transacties vanuit opslag
+
         // transacties = loadTransacties();
     }
 
     public void printAlleTransacties() {
         for (Transactie transactie : transacties) {
-            transactie.printType(); // Roep de juiste methode aan om het transactietype af te drukken
+            transactie.printType();
             System.out.println(transactie.getBeschrijving());
         }
     }
